@@ -1,0 +1,14 @@
+.division {
+	height: 40px;
+	background-color: $background-color_1;
+	display: flex;
+	justify-content: center;
+	&:hover {
+		height: 40px;
+		background-color: $background-color_2;
+	}
+}
+.tarjeta {
+	padding: 5px;
+	box-shadow: 15px 15px 20px #fffaac;
+}

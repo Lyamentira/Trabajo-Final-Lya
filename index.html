@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio - Cine Católico </title>
+<!-- ============================KEYWORD============================== -->
+  <meta name="keywords"  content="Películas, católicas, vida de santos, valores, series, dibujos para niños, infantil, apto para toda la familia, cine, CineCatólico, Cine Católico">
+
+<!--  ========================= DESCRIPCIÓN =================================== -->
+
+  <meta name="description" content="Somos una comunidad que buscamos promover la visualización de peliculas para toda la familia. Puedes encontrar contenido con valores">
+
+  <!-- Link de BOOSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+ <!-- ======================= LINK PARA ANIMACIONES ===============-->
+ 
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- ============= ICONOS DE BOOTSTRAP))))))))))))))))))))) -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/
+bootstrap-icons.css">
+
+  <!-- Enlace a mi hoja de estilo -->
+  <link rel="stylesheet" href="./css/estilo.css">
+</head>
+
+
+<body>
+  <!-- Estoy colocando el header y las secciones -->
+
+  <!-- ============================NAVBAR================================================== -->
+  <header>
+    <nav class="navbar navbar-expand-lg fondoHeader">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img class="logo" src="./imagen/logo2.png" alt="CineCatólico">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item menu_item">
+              <a class="nav-link  active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+
+            <li class="nav-item menu_item">
+              <a class="nav-link" href="html/peliculas.html">Películas</a>
+            </li>
+
+            <li class="nav-item menu_item">
+              <a class="nav-link" href="html/merchandasing.html">Merchandasing</a>
+            </li>
+
+            <li class="nav-item menu_item">
+              <a class="nav-link" href="html/nosotros.html">Nosotros</a>
+            </li>
+
+            <li class="nav-item menu_item">
+              <a class="nav-link" href="html/contactanos.html">Contáctanos</a>
+            </li>
+
+          </ul>
+          <!-- =========== BUSCADOR===================  -->
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="¿Qué buscas?" aria-label="Search">
+            <button class="btn botonL" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- ?========== FIN DE NAVBAR============== -->
+
+  <!-- ===================CARRUSEL=================== -->
+  <section>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <!-- Estos son los BOTONES DE ABAJO PARA PASAR -->
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          style="background-color: #32B6F1;" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          style="background-color: #32B6F1;" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          style="background-color: #32B6F1;" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          style="background-color: #32B6F1;" aria-label="Slide 4"></button>
+      </div>
+      <!--  Fin de los BOTONES PARA PASAR -->
+
+      <!--  Inicio de las IMAGENES DEL CARRUSEL falta vincular por eso está el # -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="#"><img src="./imagen/carrusel1.png" class="d-block w-100" alt="Garabandal"></a>    
+        </div>
+
+        <div class="carousel-item">
+          <a href="#"> </a><img src="./imagen/carrusel2.png" class="d-block w-100" alt="CorazónArdiente"></a>
+        </div>
+
+        <div class="carousel-item">
+          <a href="#"> </a><img src="./imagen/carrusel3.png" class="d-block w-100" alt="Medjugore"></a>
+        </div>
+
+        <div class="carousel-item">
+          <a href="#"> </a> <img src="./imagen/carrusel4.png" class="d-block w-100" alt="PadrePío"></a>
+        </div>
+      </div>
+
+      <!-- Este es el BOTON del movimiento -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+
+      <!-- Fin del BOTON DE MOVIMIENTO -->
+    </div>
+  </section>
+  <!-- ==================FIN DEL CARRUSEL -->
+
+  <div class="division fs-3">
+    <h1 data-aos="flip-left" >Cine Católico</h1>
+   </div>
+
+  <div class="division fs-3">
+   <h2 data-aos="flip-left" >Películas</h2>
+  </div>
+
+  <!-- ============== GALERIA DE FOTOS============= -->
+
+  <section class="container mt-3">
+    <div class="row mt-3 mb-3">
+      <img data-aos="fade-up" class="col-xl-3 col-md-6 col-sm-12 mb-3" src="./imagen/pelicula1.png" alt="Por siempre">
+      <img data-aos="fade-up" class="s col-xl-3 col-md-6 col-sm-12 mb-3" src="./imagen/pelicula2.png" alt="El vendendor de Sueños">
+      <img data-aos="fade-up" class="col-xl-3 col-md-6 col-sm-12 mb-3" src="./imagen/pelicula3.png" alt="El Gran Pequeño">
+      <img data-aos="fade-up" class="col-xl-3 col-md-6 col-sm-12 mb-3" src="./imagen/pelicula4.png" alt="LLena de Gracia">
+    </div>
+  </section>
+
+  <div class="division fs-3">
+    <h2 data-aos="flip-left" >Dibujos Animados</h2>
+  </div>
+
+  <section class="container mt-3">
+    <div class="row mt-3  mb-3">
+      <img data-aos="fade-down" class="col-xl-3 col-md-6 col-sm-12 mb-3" src="./imagen/infantil1.png" alt="La canción del mar">
+      <img data-aos="fade-down" class="col-xl-3 col-md-6 col-sm-12 mb-3" src="./imagen/infantil2.png" alt="Ana y Bruno">
+      <img data-aos="fade-down" class="col-xl-3 col-md-6 col-sm-12 mb-3" src="./imagen/infantil3.png" alt="Un moustro en París">
+      <img data-aos="fade-down" class="col-xl-3 col-md-6 col-sm-12 mb-3" src="./imagen/infantil4.png" alt="Terra Willy">
+    </div>
+  </section>
+
+  <div class="division fs-3">
+    <h2 data-aos="flip-left">Series</h2>
+  </div>
+
+  <section class="container mt-3">
+    <div class="row mt-3  mb-3">
+      <img data-aos="fade-up" class="col-xl-3 col-md-6 col-sm-12 mb-3" src="./imagen/serie1.png" alt="The Chosen">
+      <img data-aos="fade-up" class="col-xl-3 col-md-6 col-sm-12 mb-3" src="./imagen/serie2.png" alt="Bajo un manto de Estrellas">
+      <img data-aos="fade-up" class="col-xl-3 col-md-6 col-sm-12 mb-3" src="./imagen/serie3.png" alt="El Reino De María">
+      <img data-aos="fade-up" class="col-xl-3 col-md-6 col-sm-12 mb-3" src="./imagen/serie4.png" alt="Las Moradas">
+    </div>
+  </section>
+
+  <div class="division fs-3">
+    <h2 data-aos="flip-left">Vidas</h2>
+  </div>
+  <section class="container mt-3">
+    <div class="row mt-3  mb-3">
+      <img data-aos="fade-up" class="col-xl-3 col-md-6 col-sm-12 mb-3" src="./imagen/benedictoxvi.png" alt="Benedicto XVI">
+      <img data-aos="fade-up" class="col-xl-3 col-md-6 col-sm-12 mb-3" src="./imagen/francisco.png" alt="Francisco">
+      <img data-aos="fade-up" class="col-xl-3 col-md-6 col-sm-12 mb-3" src="./imagen/juanxxiii.png" alt="San Juan XXIII">
+      <img data-aos="fade-up" class="col-xl-3 col-md-6 col-sm-12 mb-3" src="./imagen/sanjuanpabloii.png" alt="San Juan Pablo II">
+    </div>
+  </section>
+
+
+  <!-- ======================== FIN DE GALERIA DE FOTOS=============== -->
+
+  <!-- ====================SECCIÓN DE SOCIOS================================= -->
+
+  <section class="container">
+    <div class="row mt-3 mb-5 tarjeta">
+      <div class="col-md-6 d-flex flex-column justify-content-center ">
+        <h3 data-aos="zoom-in-right" >Bienvenido Socio </h3>
+        <p> Estas listo para vivir la más grande experiencia y disfrutar los mejores beneficios? Socio Cine Católico es el programa que esperabas.
+          Tú suscripción es una inversión para tu familia.</p>
+          <p> Inviertes en el contenido que tu familia puede disfrutar 
+        sin "peros"</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-star">
+          <button class="btn botonL me-md-2" type="button">Ver más</button>
+          <button class="btn carro" type="button">Únete</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img class="mw-100" src="./imagen/tarjeta_clasica.png" alt="tarjeta_clasica">
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================SECCIÓN REDES SOCIALES ================== -->
+
+  <!-- ========================== FOOTER ==================== -->
+
+  <footer>
+
+    <section class="cuadro">
+      <div container-fluid>
+        <div class="row">
+          <h4 class="text-center mt-3">Síguenos en Redes Sociales</h4>
+        </div>
+      </div>
+      <div class="iconos_redes d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://www.instagram.com/" target="_blank">
+          <i class="bi bi-instagram"></i>
+        </a>
+
+        <a href="https://www.facebook.com/" target="_blank">
+          <i class="bi bi-facebook"></i>
+        </a>
+
+        <a href="https://www.twitter.com/" target="_blank">
+          <i class="bi bi-twitter"></i>
+        </a>
+      </div>
+    </section>
+
+    <div class="container-fluid fondoHeader">
+      <div class="row mt-3 mb-5 d-flex justify-content-center ">
+        <div class="col-xs-12 col-md-6 col-lg-3 d-flex justify-content-center 
+                                align-items-center">
+          <a class="navbar-brand" href="index.html">
+            <img class="logo_footer" src="./imagen/logo2.png" alt="Logo"></img>
+          </a>
+
+
+
+        </div>
+        <div class=" mt-3 col-xs-12 col-md-6 col-lg-3 ">
+          <div mb-3>
+            <a class="text-decoration-none" href="index.html">Inicio</a>
+          </div>
+          <div mb-3>
+            <a class="text-decoration-none" href="./html/nosotros.html">Nosotros</a>
+          </div>
+          <div mb-3>
+            <a class="text-decoration-none" href="./html/peliculas.html">Películas</a>
+          </div>
+          <div mb-3>
+            <a class="text-decoration-none" href="./html/merchandasing.html">Merchandasing</a>
+          </div>
+          <div mb-3>
+            <a class="text-decoration-none" href="./html/contactanos.html">Contáctanos</a>
+          </div>
+        </div>
+        <div class="col-md-5 mt-3 ">
+          <form>
+            <h4>Suscríbete a nuestro Boletín de Noticias</h4>
+            <p>Sé el primero en recibir noticias y ofertas especiales.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Correo Electrónico
+              </label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Correo Electrónico">
+              <button class="btn btn-primary" type="button">Suscribirse</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="container d-flex justify-content-center">
+        <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Company, Inc</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================= FIN DEL FOOTER======================= -->
+
+  
+  <!-- ================= Animaciones ???????????????? -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- ================== Activado de Bootstrap==================== -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+</html>

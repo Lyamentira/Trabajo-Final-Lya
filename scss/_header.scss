@@ -1,0 +1,61 @@
+/* MIXIN */
+@mixin ejemplo{
+	color: $color_1;
+	text-decoration: none;
+}
+
+ /*HEADER */
+
+.logo {
+	width: 70px;
+}
+.fondoHeader {
+	background-color: $background-color_1;
+}
+.menu_item {
+	a {
+		@include ejemplo;
+		
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+.menu_item.active {
+	a {
+		text-decoration: underline;
+	}
+}
+.botonL {
+	background-color: $background-color_2;
+	color: $color_2;
+	&:hover {
+		background-color: $background-color_3;
+		color: $color_2;
+		border: 1px solid black;
+	}
+}
+.carro {
+	background-color: $background-color_1;
+	color: $color_2;
+	&:hover {
+		background-color: $background-color_4;
+		color: $color_3;
+		border: 1px solid black;
+	}
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
