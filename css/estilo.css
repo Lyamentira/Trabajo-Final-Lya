@@ -56,6 +56,17 @@
   background-color: #fffaac;
 }
 
+.franja {
+  height: 40px;
+  background-color: #fffaac;
+  display: flex;
+  justify-content: center;
+}
+.franja:hover {
+  height: 40px;
+  background-color: #7fffd4;
+}
+
 .tarjeta {
   padding: 5px;
   box-shadow: 15px 15px 20px #fffaac;
@@ -101,10 +112,6 @@ footer {
   transition: all 0.2s ease-in;
 }
 
-h4 {
-  font-size: 20px;
-}
-
 .division {
   height: 40px;
   background-color: #7fffd4;
@@ -116,13 +123,24 @@ h4 {
   background-color: #fffaac;
 }
 
+.franja {
+  height: 40px;
+  background-color: #fffaac;
+  display: flex;
+  justify-content: center;
+}
+.franja:hover {
+  height: 40px;
+  background-color: #7fffd4;
+}
+
 .tarjeta {
   padding: 5px;
   box-shadow: 15px 15px 20px #fffaac;
 }
 
 .foto_contacto {
-  width: 200px;
+  width: 180px;
   margin-top: -8rem;
 }
 

@@ -8,6 +8,26 @@
 		background-color: $background-color_2;
 	}
 }
+
+.franja {
+	height: 40px;
+	background-color: $background-color_2;
+	display: flex;
+	justify-content: center;
+	&:hover {
+		height: 40px;
+		background-color: $background-color_1;
+	}
+}
+
+
+
+
+
+
+
+
+
 .tarjeta {
 	padding: 5px;
 	box-shadow: 15px 15px 20px #fffaac;
